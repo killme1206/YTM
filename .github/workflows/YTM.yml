@@ -184,7 +184,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=jEEYa1HsVHI)
+        $(yt-dlp --print urls https://www.youtube.com/c/豬哥會社/live)
         EOL
     - name: Get 19.m3u8
       run: |
@@ -310,7 +310,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=WPfPjbOLNfE)
+        $(yt-dlp --print urls https://www.youtube.com/user/ctitvnews52/live)
         EOL
     - name: Get 33.m3u8
       run: |
@@ -436,7 +436,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=ADDSmXoPDY8)
+        $(yt-dlp --print urls https://www.youtube.com/channel/UCcpJdrLttBz5bDBormbgwiw/live)
         EOL
     - name: Get 47.m3u8
       run: |
@@ -445,7 +445,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=qkqmy8QB-hg)
+        $(yt-dlp --print urls https://www.youtube.com/channel/UCNo4Eerk3UkixFx-n2Dj1Cg/live)
         EOL
     - name: Get 48.m3u8
       run: |
@@ -454,7 +454,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=WIhgU_mc05A)
+        $(yt-dlp --print urls https://www.youtube.com/c/NTDAPTV/live)
         EOL
     - name: Get 49.m3u8
       run: |
