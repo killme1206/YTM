@@ -148,7 +148,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=j8OCB6X8DoQ)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=s7QREqoxHdA)
         EOL
     - name: Get 15.m3u8
       run: |
@@ -292,7 +292,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/c/三立新聞網SETN/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=uNEZ3hjamus)
         EOL
     - name: Get 31.m3u8
       run: |
@@ -310,7 +310,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/user/ctitvnews52/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=WPfPjbOLNfE)
         EOL
     - name: Get 33.m3u8
       run: |
@@ -463,7 +463,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=A-gpFYwWFFs)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=oEpfDIm0f4w)
         EOL
 
     - name: git add
