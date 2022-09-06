@@ -30,7 +30,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=dX1jBiY5eeo)
+        $(yt-dlp --print urls https://www.youtube.com/user/disneyjunior/live)
         EOL
     - name: Get 02.m3u8
       run: |
@@ -148,7 +148,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=s7QREqoxHdA)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=YvdcZ_jpLXE)
         EOL
     - name: Get 15.m3u8
       run: |
@@ -463,7 +463,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=oEpfDIm0f4w)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=2mCSYvcfhtc)
         EOL
 
     - name: git add
