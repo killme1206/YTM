@@ -247,7 +247,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/channel/UC8ROUUjHzEQm-ndb69CX8Ww/live)
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=xL0ch83RAK8)
         EOL
     - name: Get 26.m3u8
       run: |
@@ -400,7 +400,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/watch?v=SBtGwNMfuf0)
+        $(yt-dlp --print urls https://www.youtube.com/channel/UCX6SRupi5lTDbIFJEOpReCQ/live)
         EOL
     - name: Get 43.m3u8
       run: |
