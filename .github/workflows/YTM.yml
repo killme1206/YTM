@@ -292,7 +292,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/channel/UCIU8ha-NHmLjtUwU7dFiXUA/live)
+        $(yt-dlp --print urls https://www.youtube.com/channel/UCQU5uVTG8h9LToACKrm1LMA/live)
         EOL
     - name: Get 31.m3u8
       run: |
