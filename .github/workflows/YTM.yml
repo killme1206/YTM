@@ -76,7 +76,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/channel/UCQU5uVTG8h9LToACKrm1LMA/live)
+        $(yt-dlp --print urls https://www.youtube.com/channel/UCnRpaOTrwbQ0lVUBVWnqn3A/live)
         EOL
     - name: Get 07.m3u8
       run: |
@@ -112,7 +112,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/channel/UCmyVDKnXwdw3McUlcijqmvQ/live)
+        $(yt-dlp --print urls https://www.youtube.com/channel/UCDkL4MfW65uZIj3LTH48S4A/live)
         EOL
     - name: Get 11.m3u8
       run: |
@@ -455,6 +455,15 @@ jobs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/c/NTDAPTV/live)
+        EOL
+    - name: Get 49.m3u8
+      run: |
+        touch ./49.m3u8
+        sudo cat >./49.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/channel/UCmyVDKnXwdw3McUlcijqmvQ/live)
         EOL
 
     - name: git add
