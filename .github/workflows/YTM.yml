@@ -39,7 +39,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/c/TalkingTomHeroes/live)
+        $(yt-dlp --print urls https://www.youtube.com/c/DaveAndAva/live)
         EOL
     - name: Get 03.m3u8
       run: |
