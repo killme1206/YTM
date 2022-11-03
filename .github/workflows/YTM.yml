@@ -474,6 +474,33 @@ jobs:
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/watch?v=ABn_ccXn_jc)
         EOL
+    - name: Get 51.m3u8
+      run: |
+        touch ./51.m3u8
+        sudo cat >./51.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=4Uc00FPs27M)
+        EOL
+    - name: Get 52.m3u8
+      run: |
+        touch ./52.m3u8
+        sudo cat >./52.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=6KlRR_DGhmI)
+        EOL
+    - name: Get 53.m3u8
+      run: |
+        touch ./53.m3u8
+        sudo cat >./53.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=dZp87qnWelE)
+        EOL
 
     - name: git add
       run: |
